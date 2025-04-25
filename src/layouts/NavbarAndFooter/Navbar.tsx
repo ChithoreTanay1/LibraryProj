@@ -7,7 +7,7 @@ export const Navbar = () => {
                     className='navbar-toggler' 
                     type='button'
                     data-bs-toggle='collapse' 
-                    data-bs-target='#navbarNavDropdown'  // Fixed hyphenation
+                    data-bs-target='#navbarNavDropdown' 
                     aria-controls='navbarNavDropdown' 
                     aria-expanded='false'
                     aria-label='Toggle navigation'
@@ -15,7 +15,7 @@ export const Navbar = () => {
                     <span className='navbar-toggler-icon'></span>
                 </button>
                 
-                <div className='collapse navbar-collapse' id='navbarNavDropdown'>  // Fixed ID match
+                <div className='collapse navbar-collapse' id='navbarNavDropdown'> 
                     <ul className='navbar-nav'>
                         <li className='nav-item'>
                             <a className='nav-link' href='#'>Home</a>
