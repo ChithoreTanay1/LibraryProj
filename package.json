@@ -2,7 +2,7 @@
   "name": "react-library",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ChithoreTanay1.github.io/react-library",
+  "homepage":  "https://chithoretanay1.github.io/react-library",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
